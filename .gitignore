@@ -30,3 +30,24 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio
+*.sln
+*.vcxproj*
+.vs/
+Debug/
+x64/
+enc_temp_folder/
+*.user
+TestResults/
+
+# Assets
+!**/assets/**
+*.meta
+
+# Vcpkg
+vcpkg/
+
+# Others
+build/
+dependencies/

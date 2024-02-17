@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "name": "dpp_x64-Debug",
+      "buildRoot": "${projectDir}\\build",
+      "cmakeCommandArgs": "-DCMAKE_BUILD_TYPE=Debug",
+      "cmakeExecutable": "C:\\Program Files\\CMake\\bin\\cmake.exe",
+      "generator": "Visual Studio 17 2022 Win64",
+      "inheritEnvironments": [ "msvc_x64" ],
+      "configurationType": "Debug"
+    },
+    {
+      "name": "dpp_x64-Release",
+      "generator": "Visual Studio 17 2022 Win64",
+      "buildRoot": "${projectDir}\\build",
+      "cmakeExecutable": "C:\\Program Files\\CMake\\bin\\cmake.exe",
+      "cmakeCommandArgs": "-DCMAKE_BUILD_TYPE=Release",
+      "inheritEnvironments": [ "msvc_x64" ],
+      "configurationType": "Release"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // Unix ////////////////////////////////////////////////////////////////
+        {
+            "name": "Comet (build) [Unix]",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/comet_editor",
+            "cwd": "${workspaceFolder}/build/",
+            "preLaunchTask": "cmake_build"
+        },
+        {
+            "name": "Comet tests (build) [Unix]",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/comet_tests",
+            "cwd": "${workspaceFolder}/build/",
+            "preLaunchTask": "cmake_build"
+        },
+        {
+            "name": "Comet (clean + build) [Unix]",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/comet_editor",
+            "cwd": "${workspaceFolder}/build/",
+            "preLaunchTask": "cleanbuild"
+        },
+        {
+            "name": "Comet tests (clean + build) [Unix]",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/comet_tests",
+            "cwd": "${workspaceFolder}/build/",
+            "preLaunchTask": "cleanbuild"
+        },
+        {
+            "name": "Comet (no build) [Unix]",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/comet_editor",
+            "cwd": "${workspaceFolder}/build/",
+        },
+        {
+            "name": "Comet tests (no build) [Unix]",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/comet_tests",
+            "cwd": "${workspaceFolder}/build/",
+        },
+        // Windows /////////////////////////////////////////////////////////////
+        {
+            "name": "Comet (build) [Windows]",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/comet_editor.exe",
+            "cwd": "${workspaceFolder}/build/",
+            "preLaunchTask": "cmake_build"
+        },
+        {
+            "name": "Comet tests (build) [Windows]",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/comet_tests.exe",
+            "cwd": "${workspaceFolder}/build/",
+            "preLaunchTask": "cmake_build"
+        },
+        {
+            "name": "Comet (clean + build) [Windows]",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/comet_editor.exe",
+            "cwd": "${workspaceFolder}/build/",
+            "preLaunchTask": "cleanbuild"
+        },
+        {
+            "name": "Comet tests (clean + build) [Windows]",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/comet_tests.exe",
+            "cwd": "${workspaceFolder}/build/",
+            "preLaunchTask": "cleanbuild"
+        },
+        {
+            "name": "Comet (no build) [Windows]",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/comet_editor.exe",
+            "cwd": "${workspaceFolder}/build/",
+        },
+        {
+            "name": "Comet tests (no build) [Windows]",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/comet_tests.exe",
+            "cwd": "${workspaceFolder}/build/",
+        }
+    ]
+}
